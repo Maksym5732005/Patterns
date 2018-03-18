@@ -1,5 +1,8 @@
 package command.receiver.stereo;
 
+/**
+ * Receiver
+ */
 public class Stereo {
     private boolean mIsPlaying;
 

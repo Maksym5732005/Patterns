@@ -2,6 +2,9 @@ package command.receiver.stereo;
 
 import command.Command;
 
+/**
+ * ConcreteCommand
+ */
 public class StereoOnCommand implements Command {
     private Stereo mStereo;
 

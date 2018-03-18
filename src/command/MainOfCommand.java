@@ -26,7 +26,11 @@ public class MainOfCommand {
         remoteControl.buttonOnPressed(2);
         remoteControl.undoButtonPressed();
         remoteControl.buttonOffPressed(2);
+
+        // Extension part
+        extension();
     }
+
 
     private static void setRemoteButtonsFunctions(RemoteControl remoteControl) {
         // 2. Create a Receiver
@@ -42,5 +46,30 @@ public class MainOfCommand {
         StereoOnCommand stereoOn = new StereoOnCommand(stereo);
         StereoOffCommand stereoOff = new StereoOffCommand(stereo);
         remoteControl.setCommand(2, stereoOn, stereoOff);
+    }
+
+    private static void extension() {
+        System.out.println("------------------------------------");
+        System.out.println("     MacroCommand extension part");
+        System.out.println("------------------------------------");
+        Light light = new Light();
+        LightOnCommand lightOn = new LightOnCommand(light);
+        LightOffCommand lightOff = new LightOffCommand(light);
+
+        Stereo stereo = new Stereo();
+        StereoOnCommand stereoOn = new StereoOnCommand(stereo);
+        StereoOffCommand stereoOff = new StereoOffCommand(stereo);
+
+        Command[] macrosOn = {lightOn, stereoOn};
+        Command[] macrosOff = {stereoOff, lightOff};
+
+        MacroCommand commandOn = new MacroCommand(macrosOn);
+        MacroCommand commandOff = new MacroCommand(macrosOff);
+        RemoteControl remoteControl = new RemoteControl();
+        remoteControl.setCommand(3, commandOn, commandOff);
+        System.out.println("-On-");
+        remoteControl.buttonOnPressed(3);
+        System.out.println("-Off-");
+        remoteControl.buttonOffPressed(3);
     }
 }

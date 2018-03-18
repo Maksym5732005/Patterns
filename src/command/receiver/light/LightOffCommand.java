@@ -2,6 +2,9 @@ package command.receiver.light;
 
 import command.Command;
 
+/**
+ * ConcreteCommand
+ */
 public class LightOffCommand implements Command {
     private Light mLight;
 
