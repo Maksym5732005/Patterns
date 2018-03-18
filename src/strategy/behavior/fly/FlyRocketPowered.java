@@ -1,5 +1,8 @@
 package strategy.behavior.fly;
 
+/**
+ * ConcreteStrategy
+ */
 public class FlyRocketPowered implements FlyBehavior {
     @Override
     public void fly() {

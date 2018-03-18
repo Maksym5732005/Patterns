@@ -3,6 +3,9 @@ package strategy.model;
 import strategy.behavior.fly.FlyWithWings;
 import strategy.behavior.quack.Quack;
 
+/**
+ * StrategyClient
+ */
 public class MallardDuck extends Duck {
 
     public MallardDuck() {

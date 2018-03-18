@@ -3,6 +3,9 @@ package strategy.model;
 import strategy.behavior.fly.FlyBehavior;
 import strategy.behavior.quack.QuackBehavior;
 
+/**
+ * StrategyClient
+ */
 public abstract class Duck {
     FlyBehavior mFlyBehavior;
     QuackBehavior mQuackBehavior;

@@ -3,6 +3,9 @@ package strategy.model;
 import strategy.behavior.fly.FlyNoWay;
 import strategy.behavior.quack.Quack;
 
+/**
+ * StrategyClient
+ */
 public class ModelDuck extends Duck {
 
     public ModelDuck() {

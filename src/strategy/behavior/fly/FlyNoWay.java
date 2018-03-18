@@ -1,5 +1,8 @@
 package strategy.behavior.fly;
 
+/**
+ * ConcreteStrategy
+ */
 public class FlyNoWay implements FlyBehavior {
     @Override
     public void fly() {
