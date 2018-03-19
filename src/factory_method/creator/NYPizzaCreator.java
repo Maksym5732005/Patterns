@@ -5,7 +5,7 @@ import factory_method.product.NYCheeseProductPizza;
 import factory_method.product.ProductPizza;
 
 /**
- * ConcreteCreator of ConcreteFactory that implements the factory method
+ * ConcreteCreator
  */
 public class NYPizzaCreator extends CreatorPizza {
 

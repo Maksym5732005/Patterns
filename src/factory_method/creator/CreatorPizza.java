@@ -3,7 +3,7 @@ package factory_method.creator;
 import factory_method.product.ProductPizza;
 
 /**
- * Creator of Factory that has a factory method.
+ * Creator (abstract of interface).
  */
 public abstract class CreatorPizza {
 

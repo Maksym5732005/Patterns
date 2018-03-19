@@ -4,7 +4,7 @@ import factory_method.product.ChicagoCheeseProductPizza;
 import factory_method.product.ProductPizza;
 
 /**
- * ConcreteCreator of ConcreteFactory that implements the factory method
+ * ConcreteCreator
  */
 public class ChicagoPizzaCreator extends CreatorPizza {
     @Override
