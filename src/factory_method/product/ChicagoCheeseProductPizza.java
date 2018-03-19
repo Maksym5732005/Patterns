@@ -1,5 +1,8 @@
 package factory_method.product;
 
+/**
+ * ConcreteProduct
+ */
 public class ChicagoCheeseProductPizza extends ProductPizza {
 
     public ChicagoCheeseProductPizza() {

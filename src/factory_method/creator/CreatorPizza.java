@@ -2,6 +2,9 @@ package factory_method.creator;
 
 import factory_method.product.ProductPizza;
 
+/**
+ * Creator of Factory that has a factory method.
+ */
 public abstract class CreatorPizza {
 
     public ProductPizza orderPizza(String type) {

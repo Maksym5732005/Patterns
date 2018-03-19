@@ -2,6 +2,9 @@ package factory_method.product;
 
 import java.util.ArrayList;
 
+/**
+ * Product (abstract or interface)
+ */
 public abstract class ProductPizza {
     protected String name;
     protected String dough;

@@ -4,6 +4,9 @@ package factory_method.creator;
 import factory_method.product.NYCheeseProductPizza;
 import factory_method.product.ProductPizza;
 
+/**
+ * ConcreteCreator of ConcreteFactory that implements the factory method
+ */
 public class NYPizzaCreator extends CreatorPizza {
 
     @Override
