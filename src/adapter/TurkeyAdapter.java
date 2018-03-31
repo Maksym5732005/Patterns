@@ -6,7 +6,7 @@ package adapter;
 public class TurkeyAdapter implements Duck {
     private Turkey mTurkey;
 
-    public TurkeyAdapter(Turkey turkey) {
+    TurkeyAdapter(Turkey turkey) {
         mTurkey = turkey;
     }
 

@@ -7,7 +7,7 @@ package command;
 public class MacroCommand implements Command {
     Command [] mCommands;
 
-    public MacroCommand(Command[] commands) {
+    MacroCommand(Command[] commands) {
         mCommands = commands;
     }
 
