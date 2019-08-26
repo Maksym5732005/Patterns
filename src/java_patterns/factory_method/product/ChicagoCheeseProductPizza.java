@@ -1,4 +1,4 @@
-package factory_method.product;
+package java_patterns.factory_method.product;
 
 /**
  * ConcreteProduct

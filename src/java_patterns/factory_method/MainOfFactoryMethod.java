@@ -1,8 +1,8 @@
-package factory_method;
+package java_patterns.factory_method;
 
-import factory_method.creator.ChicagoPizzaCreator;
-import factory_method.creator.CreatorPizza;
-import factory_method.creator.NYPizzaCreator;
+import java_patterns.factory_method.creator.ChicagoPizzaCreator;
+import java_patterns.factory_method.creator.CreatorPizza;
+import java_patterns.factory_method.creator.NYPizzaCreator;
 
 /**
  * Client

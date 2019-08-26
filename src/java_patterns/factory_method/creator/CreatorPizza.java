@@ -1,6 +1,6 @@
-package factory_method.creator;
+package java_patterns.factory_method.creator;
 
-import factory_method.product.ProductPizza;
+import java_patterns.factory_method.product.ProductPizza;
 
 /**
  * Creator (abstract of interface).

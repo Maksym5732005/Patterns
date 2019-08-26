@@ -1,7 +1,7 @@
-package factory_method.creator;
+package java_patterns.factory_method.creator;
 
-import factory_method.product.ChicagoCheeseProductPizza;
-import factory_method.product.ProductPizza;
+import java_patterns.factory_method.product.ChicagoCheeseProductPizza;
+import java_patterns.factory_method.product.ProductPizza;
 
 /**
  * ConcreteCreator
