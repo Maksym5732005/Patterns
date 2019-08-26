@@ -1,4 +1,4 @@
-package java_patterns.simple_factory;
+package java_patterns.factory.simple_factory;
 
 public class MainOfSimpleFactory {
     /**
